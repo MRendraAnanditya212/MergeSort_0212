@@ -33,3 +33,15 @@ using namespace std;
      }
  }
 
+// create main function mergersort
+void mergeSort(int low, int high)
+{
+   
+   if (low >= high)
+   {
+        return;
+   }
+   
+   int mid = (low + high)/2; //steps 2
+
+  
